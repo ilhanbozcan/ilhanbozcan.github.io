@@ -97,13 +97,13 @@ header nav ul li a:hover
     
 }
 
-.slider a.btn-half{
+a.btn-half{
     
     background-color:rgb(212, 214, 87);
     color: white;
 }
 
-.slider a.btn-full{
+a.btn-full{
     background-color: darkred;
     color: white;
 }
@@ -187,6 +187,43 @@ header nav ul li a:hover
     background:  rgb(82, 73, 73);
     transition: 0.6s ease-in;
 }
+
+.feature-area{
+    margin-top: 6%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/night3jpg.jpg);
+    background-position: center;
+    background-attachment: fixed ;
+}
+.feature-area .title h2{
+    color: white;
+}
+.feature-area .single-feature p{
+    color: white;
+}
+
+.title .sub-heading p{
+    color: #f3f3f3;
+    border-color:rgb(82, 73, 73) ;
+}
+.single-feature h3{
+    color: white;
+}
+
+.single-feature{
+    position: relative;
+    
+    margin-top: 20%;
+    float: center;
+    padding: 30px 0px;
+    text-align: center;
+    border-right: 1px solid rgb(82, 73, 73) ;
+    border-left: 1px solid rgb(82, 73, 73) ;
+    border-top: 1px solid rgb(82, 73, 73) ;
+    
+    
+    
+}
+
 
 
 
